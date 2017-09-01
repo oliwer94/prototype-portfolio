@@ -1,49 +1,36 @@
 @media screen and (min-width: 50px){
     .wrapper{
-        grid-template-columns: 1fr;
-        grid-auto-rows: minmax(50px, auto);
-    }
+        grid-template-columns: 1fr ;
+        grid-template-areas: "title"
+                            "logo"
+                            "description"
+                            "pdf";
+        }
 }    
 
 @media screen and (min-width: 601px){
-.wrapper{
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: minmax(50px, auto);
-}
+    .wrapper{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "title title"
+                            "logo description"
+                            "pdf pdf";
+        }
 }
 
-@media screen and (min-width: 990px){
-.wrapper{
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: minmax(100px, auto);
-}
-}
 @media screen and (min-width: 1000px){   
-.wrapper{
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: minmax(100px, auto);
+    .wrapper{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "title title"
+                            "logo pdf"
+                            "description pdf";
+        }  
 }
-}
-
-@media screen and (min-width: 1200px){
-
-.wrapper{
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-auto-columns: minmax(100px,110px);
-}
-}   
+  
 .wrapper{
     display:grid;
     grid-gap: 1em;
     margin-bottom: 1em;
-    padding-right: 10px;
-    padding-left: 10px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "title title"
-                        "image pdf"
-                        "description pdf";
-    grid-gap: 1em;
-    padding: 10px;
+    width: inherit;
 }
 
 .pdf {
@@ -52,13 +39,21 @@
 }
 .title {
     grid-area: title;
+    text-align: center;
+   
 }
-.image {
-    grid-area: image;
+.logo {
+    grid-area: logo;
     justify-self: start;
 }
 .description {
     grid-area: description;
     text-align: left;
     white-space: pre;
+}
+
+.oframe
+{
+    width:"500px";
+    height:"500px";
 }

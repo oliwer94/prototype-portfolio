@@ -19,11 +19,12 @@ export class QuadballComponent implements OnInit {
   proto: any =
     {
       name: "QuadBall",
-      about: `The exercise was to create a game that full-fills the following requirements: 
-      \n -  Max 3 players / team
-      \n - Spactable
-      \n - Competitive
-      \n - Have to use a prop (ball, bat etc...)
+      about: `The exercise was to create a game 
+      that full-fills the following requirements: 
+       -  Max 3 players / team
+       - Spactable
+       - Competitive
+       - Have to use a prop (ball, bat etc...)
       `,
       imgsrc: "\\assets\\images\\quadball.png",
       pdf: "\\assets\\pdf\\Quadball.pdf",
