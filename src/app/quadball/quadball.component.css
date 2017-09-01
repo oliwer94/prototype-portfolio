@@ -6,6 +6,10 @@
                             "description"
                             "pdf";
         }
+        .pdf
+        {
+            margin-top:-60px;
+        }
 }    
 
 @media screen and (min-width: 601px){
@@ -15,15 +19,33 @@
                             "logo description"
                             "pdf pdf";
         }
+
+    .logo
+    {
+        margin-top:56px;
+    }
+    .pdf
+    {
+        margin-top:-60px;
+    }
+
 }
 
 @media screen and (min-width: 1000px){   
     .wrapper{
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas: "title title"
-                            "logo pdf"
-                            "description pdf";
+        grid-template-columns: 1fr 2fr;
+        grid-template-areas: "title title title"
+                            "logo pdf pdf"
+                            "description pdf pdf";
         }  
+        .logo
+        {
+            margin-top:0px;
+        }
+        .pdf
+        {
+            margin-top:0px;
+        }
 }
   
 .wrapper{
@@ -45,6 +67,7 @@
 .logo {
     grid-area: logo;
     justify-self: start;
+   
 }
 .description {
     grid-area: description;
