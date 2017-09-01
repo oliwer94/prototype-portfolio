@@ -1,0 +1,48 @@
+{
+  "prototypes": [
+    {
+      name: "Sport",
+      about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      imgsrc: "\assets\images\comingsoon.jpg"
+    },
+    {
+      name: "Spectable game",
+      about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      imgsrc: "\assets\images\comingsoon.jpg"
+    },
+    {
+      name: "Modif. of an already existing game",
+      about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      imgsrc: "\assets\images\comingsoon.jpg"
+    },
+    {
+      name: "From emotion to game",
+      about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      imgsrc: "\assets\images\comingsoon.jpg"
+    },
+    {
+      name: "Loops",
+      about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      imgsrc: "\assets\images\comingsoon.jpg"
+    },
+    {
+      name: "One button game",
+      about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      imgsrc: "\assets\images\comingsoon.jpg"
+    },
+    {
+      name: "Vertical jumping game",
+      about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      imgsrc: "\assets\images\comingsoon.jpg"
+    },
+    {
+      name: " Local Multiplayer Game, 1 loser",
+      about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      imgsrc: "\assets\images\comingsoon.jpg"
+    },
+    {
+      name: "UI exercise",
+      about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      imgsrc: "\assets\images\comingsoon.jpg"
+    }]
+}
