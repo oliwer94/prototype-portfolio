@@ -27,7 +27,7 @@ export class QuadballComponent implements OnInit {
        - Have to use a prop (ball, bat etc...)
       `,
       imgsrc: "\\assets\\images\\quadball.png",
-      pdf: "\\assets\\pdf\\Quadball.pdf",
+      pdf: "http://www.oliverarnits.com\\assets\\pdf\\Quadball.pdf",
       tag: "quadball"
     };
 
