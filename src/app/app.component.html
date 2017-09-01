@@ -9,23 +9,19 @@
 
         </header>
 
-        <!-- <div class="main">
-            
-        </div> -->
-
         <div class="main">
-            <tiles class="inner-grid"></tiles>
+            <router-outlet></router-outlet>
         </div>
 
         <div class="sidebar">
             <div class="row">
                 <div style="margin-left:15px; width:100px;">
-                    <a href="#">
+                    <a routerLink="">
                         <h4 style="border-right:solid thin black;color:black">Projects</h4>
                     </a>
                 </div>
                 <div style="margin-left:15px; width:80px;">
-                    <a href="#">
+                    <a routerLink="about">
                         <h4 style="border-right:solid thin black;color:black">About</h4>
                     </a>
                 </div>
@@ -34,11 +30,13 @@
 
         <footer class="footer">
             <div class="row">
-                <div class="col-1">
-                    <p>Email:</p>
-                </div>
-                <div class="col-3">
-                    <p>oliver.arnits@gmail.com <br> olar@itu.dk</p>
+                <div class="footer-grid">
+                    <div>
+                        <p>Email:</p>
+                    </div>
+                    <div>
+                        <p>oliver.arnits@gmail.com <br> olar@itu.dk</p>
+                    </div>
                 </div>
             </div>
         </footer>

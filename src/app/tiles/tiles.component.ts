@@ -13,49 +13,59 @@ export class TilesComponent implements OnInit {
 
   prototypes: any = [
     {
-      name: "Sport",
+      name: "QuadBall",
       about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      imgsrc: "\assets\images\comingsoon.jpg"
+      imgsrc: "\\assets\\images\\quadball.png",
+      pdf:"\\assets\\pdf\\Quadball.pdf",
+      tag:"quadball"      
     },
     {
       name: "Spectable game",
       about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      imgsrc: "\assets\images\comingsoon.jpg"
+      imgsrc: "\\assets\\images\\comingsoon.jpg",
+      tag:"comingsoon"      
     },
     {
-      name: "Existing game",
+      name: "Modification of an already existing game",
       about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      imgsrc: "\assets\images\comingsoon.jpg"
+      imgsrc: "\\assets\\images\\comingsoon.jpg",
+      tag:"comingsoon"
     },
     {
-      name: "emotion to game",
+      name: "From emotion to game",
       about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      imgsrc: "\assets\images\comingsoon.jpg"
+      imgsrc: "\\assets\\images\\comingsoon.jpg",
+      tag:"comingsoon"
     },
     {
       name: "Loops",
       about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      imgsrc: "\assets\images\comingsoon.jpg"
+      imgsrc: "\\assets\\images\\comingsoon.jpg",
+      tag:"comingsoon"
     },
     {
       name: "One button game",
       about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      imgsrc: "\assets\images\comingsoon.jpg"
+      imgsrc: "\\assets\\images\\comingsoon.jpg",
+      tag:"comingsoon"
     },
     {
-      name: "V. jumping game",
+      name: "Vertical jumping game",
       about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      imgsrc: "\assets\images\comingsoon.jpg"
+      imgsrc: "\\assets\\images\\comingsoon.jpg",
+      tag:"comingsoon"
     },
     {
       name: " Local Multiplayer",
       about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      imgsrc: "\assets\images\comingsoon.jpg"
+      imgsrc: "\\assets\\images\\comingsoon.jpg",
+      tag:"comingsoon"
     },
     {
       name: "UI exercise",
       about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      imgsrc: "\assets\images\comingsoon.jpg"
+      imgsrc: "\\assets\\images\\comingsoon.jpg",
+      tag:"comingsoon"
     }];
 
   ngOnInit() {

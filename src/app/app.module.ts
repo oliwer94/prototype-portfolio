@@ -1,22 +1,53 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpModule} from '@angular/http';
+import {RouterModule} from '@angular/router';
+
+import {GameService} from './gameService/game-service.service';
 
 import { AppComponent } from './app.component';
 import { TilesComponent } from './tiles/tiles.component';
 import { TileComponent } from './tile/tile.component';
+import { SafePipe } from './sanitizerPipe/safe.pipe';
+import { QuadballComponent } from './quadball/quadball.component';
+import { LandingpageComponent } from './landingpage/landingpage.component';
+import { AboutComponent } from './about/about.component';
+import { ComingsoonComponent } from './comingsoon/comingsoon.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TilesComponent,
-    TileComponent
+    TileComponent,
+    SafePipe,
+    QuadballComponent,
+    LandingpageComponent,
+    AboutComponent,
+    ComingsoonComponent
   ],
   imports: [
     BrowserModule,
-    HttpModule
+    HttpModule,
+    RouterModule.forRoot([      
+      {
+        path:'quadball',
+        component:QuadballComponent
+      },
+      {
+        path:'',
+        component:LandingpageComponent
+      },
+      {
+        path:'about',
+        component:AboutComponent
+      },
+      {
+        path:'comingsoon',
+        component:ComingsoonComponent
+      }
+    ])
   ],
-  providers: [],
+  providers: [GameService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

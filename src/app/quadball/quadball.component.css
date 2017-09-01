@@ -1,0 +1,64 @@
+@media screen and (min-width: 50px){
+    .wrapper{
+        grid-template-columns: 1fr;
+        grid-auto-rows: minmax(50px, auto);
+    }
+}    
+
+@media screen and (min-width: 601px){
+.wrapper{
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(50px, auto);
+}
+}
+
+@media screen and (min-width: 990px){
+.wrapper{
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+}
+}
+@media screen and (min-width: 1000px){   
+.wrapper{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+}
+}
+
+@media screen and (min-width: 1200px){
+
+.wrapper{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-columns: minmax(100px,110px);
+}
+}   
+.wrapper{
+    display:grid;
+    grid-gap: 1em;
+    margin-bottom: 1em;
+    padding-right: 10px;
+    padding-left: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "title title"
+                        "image pdf"
+                        "description pdf";
+    grid-gap: 1em;
+    padding: 10px;
+}
+
+.pdf {
+    grid-area: pdf;
+ 
+}
+.title {
+    grid-area: title;
+}
+.image {
+    grid-area: image;
+    justify-self: start;
+}
+.description {
+    grid-area: description;
+    text-align: left;
+    white-space: pre;
+}

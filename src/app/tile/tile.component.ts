@@ -1,4 +1,5 @@
 import { Component, OnInit,Input } from '@angular/core';
+import { GameService } from '../gameService/game-service.service';
 
 @Component({
   selector: 'tile',
@@ -8,6 +9,16 @@ import { Component, OnInit,Input } from '@angular/core';
 export class TileComponent implements OnInit {
 
   @Input() proto;  
+    
+    constructor(private gameService:GameService)
+    {
+
+    }
+
+  click()
+  {
+    this.gameService.gameObject = this.proto;
+  }
 
   ngOnInit() {
   }

@@ -1,0 +1,20 @@
+<div class="wrapper">
+
+  <div class="title">
+    <h2>{{proto.name}}</h2>
+  </div>
+
+  <div class="image">
+    <img style="max-height: 10rem; border: solid thin black;" src="{{proto.imgsrc}}" alt="Card image cap">
+  </div>
+
+  <div class="description">
+    <p>{{proto.about}}</p>
+  </div>
+
+  <div class="pdf">
+    <iframe [src]="proto.pdf | safe" width="500px" height="500px">
+    </iframe>
+  </div>
+
+</div>
