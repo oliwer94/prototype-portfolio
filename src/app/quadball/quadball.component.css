@@ -18,6 +18,8 @@
         grid-template-areas: "title title"
                             "logo description"
                             "pdf pdf";
+                            padding-left:10px;
+                            padding-right:10px;
         }
 
     .logo
@@ -37,6 +39,10 @@
         grid-template-areas: "title title title"
                             "logo pdf pdf"
                             "description pdf pdf";
+        padding-left:50px;
+        padding-right:50px;
+        
+
         }  
         .logo
         {

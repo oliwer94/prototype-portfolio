@@ -20,7 +20,7 @@ export class TilesComponent implements OnInit {
       tag:"quadball"      
     },
     {
-      name: "Spectable game",
+      name: "spectatable  game",
       about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
       imgsrc: "\\assets\\images\\comingsoon.jpg",
       tag:"comingsoon"      
