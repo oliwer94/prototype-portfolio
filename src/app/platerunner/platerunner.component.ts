@@ -22,8 +22,8 @@ export class PlaterunnerComponent implements OnInit {
       about: `The exercise was to create a game that
 full-fills the following requirements: 
      - 2 players
-     - 2 min rounds or infite
-     - Spactatable
+     - 2 min rounds or infinite
+     - Spactate-able
      - Has to have a digital component`,
       imgsrc: "\\assets\\images\\platerunner.png",
       pdf: "http://www.oliverarnits.com\\assets\\pdf\\Platerunner.pdf",
