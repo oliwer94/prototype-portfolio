@@ -12,6 +12,7 @@ import { SafePipe } from './sanitizerPipe/safe.pipe';
 import { QuadballComponent } from './quadball/quadball.component';
 import { LandingpageComponent } from './landingpage/landingpage.component';
 import { AboutComponent } from './about/about.component';
+import { PlaterunnerComponent } from './platerunner/platerunner.component';
 import { ComingsoonComponent } from './comingsoon/comingsoon.component';
 
 @NgModule({
@@ -23,7 +24,8 @@ import { ComingsoonComponent } from './comingsoon/comingsoon.component';
     QuadballComponent,
     LandingpageComponent,
     AboutComponent,
-    ComingsoonComponent
+    ComingsoonComponent,
+    PlaterunnerComponent
   ],
   imports: [
     BrowserModule,
@@ -32,6 +34,10 @@ import { ComingsoonComponent } from './comingsoon/comingsoon.component';
       {
         path:'quadball',
         component:QuadballComponent
+      },
+      {
+        path:'platerunner',
+        component:PlaterunnerComponent
       },
       {
         path:'',

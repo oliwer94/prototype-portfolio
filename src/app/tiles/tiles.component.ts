@@ -20,10 +20,12 @@ export class TilesComponent implements OnInit {
       tag:"quadball"      
     },
     {
-      name: "spectatable  game",
+      name: "Plate Runner",
       about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      imgsrc: "\\assets\\images\\comingsoon.jpg",
-      tag:"comingsoon"      
+      imgsrc: "\\assets\\images\\platerunner.png",
+      pdf:"\\assets\\pdf\\Platerunner.pdf",
+      build:"\\assets\\builds\\Build-20170910T161915Z-001.zip",
+      tag:"platerunner"      
     },
     {
       name: "Modification of an already existing game",
