@@ -28,10 +28,10 @@ export class TilesComponent implements OnInit {
       tag:"platerunner"      
     },
     {
-      name: "Modification of an already existing game",
+      name: "Frogger",
       about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      imgsrc: "\\assets\\images\\comingsoon.jpg",
-      tag:"comingsoon"
+      imgsrc: "\\assets\\images\\frogger.png",
+      tag:"frogger"
     },
     {
       name: "From emotion to game",

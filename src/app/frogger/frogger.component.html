@@ -1,0 +1,20 @@
+<div class="wrapper">
+  
+    <div class="title">
+      <h2>{{proto.name}}</h2>
+    </div>
+  
+    <div class="logo">
+      <img style="max-height: 10rem; border: solid thin black;" src="{{proto.imgsrc}}" alt="Card image cap">
+    </div>
+  
+    <div class="description">
+      <p>{{proto.about}}</p>
+      <a href="{{proto.build}}">Try it out!</a>
+    </div>
+  
+    <div class="pdf" >
+      <iframe id="pdfviewer" [src]="'http://docs.google.com/gview?embedded=true&url='+proto.pdf +'&amp;embedded=true' | safe" frameborder="0" width="100%" height="500px;"></iframe>
+    </div>
+  
+  </div>

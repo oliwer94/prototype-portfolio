@@ -1,0 +1,88 @@
+@media screen and (min-width: 50px){
+    .wrapper{
+        grid-template-columns: 1fr ;
+        grid-template-areas: "title"
+                            "logo"
+                            "description"
+                            "pdf";
+        }
+        .pdf
+        {
+            margin-top:-60px;
+        }
+}    
+
+@media screen and (min-width: 601px){
+    .wrapper{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "title title"
+                            "logo description"
+                            "pdf pdf";
+                            padding-left:10px;
+                            padding-right:10px;
+        }
+
+    .logo
+    {
+        margin-top:56px;
+    }
+    .pdf
+    {
+        margin-top:-60px;
+    }
+
+}
+
+@media screen and (min-width: 1000px){   
+    .wrapper{
+        grid-template-columns: 1fr 2fr;
+        grid-template-areas: "title title title"
+                            "logo pdf pdf"
+                            "description pdf pdf";
+        padding-left:50px;
+        padding-right:50px;
+        
+
+        }  
+        .logo
+        {
+            margin-top:0px;
+        }
+        .pdf
+        {
+            margin-top:0px;
+        }
+}
+  
+.wrapper{
+    display:grid;
+    grid-gap: 1em;
+    margin-bottom: 1em;
+    width: inherit;
+}
+
+.pdf {
+    grid-area: pdf;
+ 
+}
+.title {
+    grid-area: title;
+    text-align: center;
+   
+}
+.logo {
+    grid-area: logo;
+    justify-self: start;
+   
+}
+.description {
+    grid-area: description;
+    text-align: left;
+    white-space: pre;
+}
+
+.oframe
+{
+    width:"500px";
+    height:"500px";
+}

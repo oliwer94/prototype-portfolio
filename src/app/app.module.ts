@@ -14,6 +14,7 @@ import { LandingpageComponent } from './landingpage/landingpage.component';
 import { AboutComponent } from './about/about.component';
 import { PlaterunnerComponent } from './platerunner/platerunner.component';
 import { ComingsoonComponent } from './comingsoon/comingsoon.component';
+import { FroggerComponent } from './frogger/frogger.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ComingsoonComponent } from './comingsoon/comingsoon.component';
     LandingpageComponent,
     AboutComponent,
     ComingsoonComponent,
-    PlaterunnerComponent
+    PlaterunnerComponent,
+    FroggerComponent
   ],
   imports: [
     BrowserModule,
@@ -38,6 +40,10 @@ import { ComingsoonComponent } from './comingsoon/comingsoon.component';
       {
         path:'platerunner',
         component:PlaterunnerComponent
+      },
+      {
+        path:'frogger',
+        component:FroggerComponent
       },
       {
         path:'',
