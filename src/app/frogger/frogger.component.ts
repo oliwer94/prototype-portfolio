@@ -27,7 +27,7 @@ the speed of the cars.  `,
     imgsrc: "\\assets\\images\\frogger.png",
     pdf: "http://www.oliverarnits.com\\assets\\pdf\\Frogger.pdf",
     tag: "frogger",
-    build:"\\assets\\builds\\Build-20170910T161915Z-001.zip"
+    build:"\\assets\\builds\\frogger prototype_V1.2.zip"
   };
 
 
