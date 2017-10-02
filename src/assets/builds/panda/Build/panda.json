@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "panda.data.unityweb",
+"asmCodeUrl": "panda.asm.code.unityweb",
+"asmMemoryUrl": "panda.asm.memory.unityweb",
+"asmFrameworkUrl": "panda.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
