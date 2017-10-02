@@ -14,14 +14,12 @@ export class TilesComponent implements OnInit {
   prototypes: any = [
     {
       name: "QuadBall",
-      about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
       imgsrc: "\\assets\\images\\quadball.png",
       pdf:"\\assets\\pdf\\Quadball.pdf",
       tag:"quadball"      
     },
     {
       name: "Plate Runner",
-      about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
       imgsrc: "\\assets\\images\\platerunner.png",
       pdf:"\\assets\\pdf\\Platerunner.pdf",
       build:"\\assets\\builds\\Build-20170910T161915Z-001.zip",
@@ -29,15 +27,13 @@ export class TilesComponent implements OnInit {
     },
     {
       name: "Frogger",
-      about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
       imgsrc: "\\assets\\images\\frogger.png",
       tag:"frogger"
     },
     {
-      name: "From emotion to game",
-      about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      imgsrc: "\\assets\\images\\comingsoon.jpg",
-      tag:"comingsoon"
+      name: "Panda-Protect",
+      imgsrc: "\\assets\\images\\pp_large.png",
+      tag:"panda-protect"
     },
     {
       name: "Loops",

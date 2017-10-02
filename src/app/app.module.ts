@@ -15,6 +15,7 @@ import { AboutComponent } from './about/about.component';
 import { PlaterunnerComponent } from './platerunner/platerunner.component';
 import { ComingsoonComponent } from './comingsoon/comingsoon.component';
 import { FroggerComponent } from './frogger/frogger.component';
+import { PandaProtectComponent } from './panda-protect/panda-protect.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { FroggerComponent } from './frogger/frogger.component';
     AboutComponent,
     ComingsoonComponent,
     PlaterunnerComponent,
-    FroggerComponent
+    FroggerComponent,
+    PandaProtectComponent
   ],
   imports: [
     BrowserModule,
@@ -45,6 +47,10 @@ import { FroggerComponent } from './frogger/frogger.component';
         path:'frogger',
         component:FroggerComponent
       },
+      {
+        path:'panda-protect',
+        component:PandaProtectComponent
+      },      
       {
         path:'',
         component:LandingpageComponent
