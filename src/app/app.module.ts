@@ -16,6 +16,7 @@ import { PlaterunnerComponent } from './platerunner/platerunner.component';
 import { ComingsoonComponent } from './comingsoon/comingsoon.component';
 import { FroggerComponent } from './frogger/frogger.component';
 import { PandaProtectComponent } from './panda-protect/panda-protect.component';
+import { OniComponent } from './oni/oni.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { PandaProtectComponent } from './panda-protect/panda-protect.component';
     ComingsoonComponent,
     PlaterunnerComponent,
     FroggerComponent,
-    PandaProtectComponent
+    PandaProtectComponent,
+    OniComponent
   ],
   imports: [
     BrowserModule,
@@ -42,6 +44,10 @@ import { PandaProtectComponent } from './panda-protect/panda-protect.component';
       {
         path:'platerunner',
         component:PlaterunnerComponent
+      },
+      {
+        path:'oni',
+        component:OniComponent
       },
       {
         path:'frogger',
