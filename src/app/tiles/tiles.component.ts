@@ -41,10 +41,9 @@ export class TilesComponent implements OnInit {
       tag:"oni"
     },
     {
-      name: "One button game",
-      about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      imgsrc: "\\assets\\images\\comingsoon.jpg",
-      tag:"comingsoon"
+      name: "Rhythm",
+      imgsrc: "\\assets\\images\\rhythm.png",
+      tag:"rhythm"
     },
     {
       name: "Vertical jumping game",

@@ -8,6 +8,10 @@ const app = express();
 // in the dist directory
 app.use(express.static(__dirname + '/dist'));
 
+app.get('/rhythm/game', function (req, res) {
+    res.sendFile(path.join(__dirname + '/dist/assets/builds/Rhythm/index.html'));
+});
+
 app.get('/panda-protect/game', function (req, res) {
     res.sendFile(path.join(__dirname + '/dist/assets/builds/panda/index.html'));
 });

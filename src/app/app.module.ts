@@ -17,6 +17,7 @@ import { ComingsoonComponent } from './comingsoon/comingsoon.component';
 import { FroggerComponent } from './frogger/frogger.component';
 import { PandaProtectComponent } from './panda-protect/panda-protect.component';
 import { OniComponent } from './oni/oni.component';
+import { RhythmComponent } from './rhythm/rhythm.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { OniComponent } from './oni/oni.component';
     PlaterunnerComponent,
     FroggerComponent,
     PandaProtectComponent,
-    OniComponent
+    OniComponent,
+    RhythmComponent
   ],
   imports: [
     BrowserModule,
@@ -56,7 +58,11 @@ import { OniComponent } from './oni/oni.component';
       {
         path:'panda-protect',
         component:PandaProtectComponent
-      },      
+      },    
+      {
+        path:'rhythm',
+        component:RhythmComponent
+      },  
       {
         path:'',
         component:LandingpageComponent
