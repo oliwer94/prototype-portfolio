@@ -17,8 +17,11 @@ export class RhythmComponent implements OnInit {
       name: "Rhythm",
       about: 
   `The exercise was to create a prototype
-  using where the player only allowed to use only one button.
-  The  requirements: 
+   where the player can only use one button to play the game.
+   Our game is about navigating a duck through the map, collecting
+   as many coins as possible, using only the spacebar to change direction.
+   The  requirements: 
+       - One button control.
        - Minimum 5 minutes gameplay.`, 
       tag: "rhythm",
       build:"\\assets\\builds\\Rhythm-windows.zip",
