@@ -8,6 +8,10 @@ const app = express();
 // in the dist directory
 app.use(express.static(__dirname + '/dist'));
 
+app.get('/color-run/game', function (req, res) {
+    res.sendFile(path.join(__dirname + '/dist/assets/builds/color-run/index.html'));
+});
+
 app.get('/rhythm/game', function (req, res) {
     res.sendFile(path.join(__dirname + '/dist/assets/builds/Rhythm/index.html'));
 });

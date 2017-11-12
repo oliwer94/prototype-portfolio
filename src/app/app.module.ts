@@ -18,6 +18,7 @@ import { FroggerComponent } from './frogger/frogger.component';
 import { PandaProtectComponent } from './panda-protect/panda-protect.component';
 import { OniComponent } from './oni/oni.component';
 import { RhythmComponent } from './rhythm/rhythm.component';
+import { VerticalComponent } from './vertical/vertical.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { RhythmComponent } from './rhythm/rhythm.component';
     FroggerComponent,
     PandaProtectComponent,
     OniComponent,
-    RhythmComponent
+    RhythmComponent,
+    VerticalComponent
   ],
   imports: [
     BrowserModule,
@@ -62,6 +64,10 @@ import { RhythmComponent } from './rhythm/rhythm.component';
       {
         path:'rhythm',
         component:RhythmComponent
+      },  
+      {
+        path:'color-run',
+        component:VerticalComponent
       },  
       {
         path:'',

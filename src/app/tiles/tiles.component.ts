@@ -46,23 +46,17 @@ export class TilesComponent implements OnInit {
       tag:"rhythm"
     },
     {
-      name: "Vertical jumping game",
-      about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      name: "Color Run",
       imgsrc: "\\assets\\images\\comingsoon.jpg",
-      tag:"comingsoon"
+      tag:"color-run"
     },
     {
       name: " Local Multiplayer",
       about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
       imgsrc: "\\assets\\images\\comingsoon.jpg",
       tag:"comingsoon"
-    },
-    {
-      name: "UI exercise",
-      about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      imgsrc: "\\assets\\images\\comingsoon.jpg",
-      tag:"comingsoon"
-    }];
+    }
+  ];
 
   ngOnInit() {
   }
