@@ -13,48 +13,47 @@ export class TilesComponent implements OnInit {
 
   prototypes: any = [
     {
-      name: "QuadBall",
-      imgsrc: "\\assets\\images\\quadball.png",
-      pdf:"\\assets\\pdf\\Quadball.pdf",
-      tag:"quadball"      
+      name: 'QuadBall',
+      imgsrc: '\\assets\\images\\quadball.png',
+      pdf: '\\assets\\pdf\\Quadball.pdf',
+      tag: 'quadball'
     },
     {
-      name: "Plate Runner",
-      imgsrc: "\\assets\\images\\platerunner.png",
-      pdf:"\\assets\\pdf\\Platerunner.pdf",
-      build:"\\assets\\builds\\Build-20170910T161915Z-001.zip",
-      tag:"platerunner"      
+      name: 'Plate Runner',
+      imgsrc: '\\assets\\images\\platerunner.png',
+      pdf: '\\assets\\pdf\\Platerunner.pdf',
+      build: '\\assets\\builds\\Build-20170910T161915Z-001.zip',
+      tag: 'platerunner'
     },
     {
-      name: "Frogger",
-      imgsrc: "\\assets\\images\\frogger.png",
-      tag:"frogger"
+      name: 'Frogger',
+      imgsrc: '\\assets\\images\\frogger.png',
+      tag: 'frogger'
     },
     {
-      name: "Panda-Protect",
-      imgsrc: "\\assets\\images\\pp_large.png",
-      tag:"panda-protect"
+      name: 'Panda-Protect',
+      imgsrc: '\\assets\\images\\pp_large.png',
+      tag: 'panda-protect'
     },
     {
-      name: "Oni",
-      imgsrc: "\\assets\\images\\oni.png",
-      tag:"oni"
+      name: 'Oni',
+      imgsrc: '\\assets\\images\\oni.png',
+      tag: 'oni'
     },
     {
-      name: "Rhythm",
-      imgsrc: "\\assets\\images\\rhythm.png",
-      tag:"rhythm"
+      name: 'Rhythm',
+      imgsrc: '\\assets\\images\\rhythm.png',
+      tag: 'rhythm'
     },
     {
-      name: "Color Run",
-      imgsrc: "\\assets\\images\\comingsoon.jpg",
-      tag:"color-run"
+      name: 'Color Run',
+      imgsrc: '\\assets\\images\\colorrun.png',
+      tag: 'color-run'
     },
     {
-      name: " Local Multiplayer",
-      about: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      imgsrc: "\\assets\\images\\comingsoon.jpg",
-      tag:"comingsoon"
+      name: 'Sorry I\'m broke',
+      imgsrc: '\\assets\\images\\bill.png',
+      tag: 'sorryimbroke'
     }
   ];
 

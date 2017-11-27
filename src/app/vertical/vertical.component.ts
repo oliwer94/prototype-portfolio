@@ -15,16 +15,16 @@ export class VerticalComponent implements OnInit {
   proto: any =
   {
     name: "Color Run",
-    about: 
+    about:
 `The exercise was to create a vertical 
 jumping game....
 The  requirements: 
      - no playtime constraint
      - jump SFX`,
-    imgsrc: "\\assets\\images\\comingsoon.png",
+    imgsrc: "\\assets\\images\\colorrun.png",
     tag: "color-run",
-    build:"\\assets\\builds\\color-run.zip",
-    webglURL:"\\color-run\\game",
-    largeImage:"\\assets\\images\\pp_large.png"
+    build: "\\assets\\builds\\color-run.zip",
+    webglURL: "\\color-run\\game",
+    largeImage: "\\assets\\images\\colorrun.png"
   };
 }

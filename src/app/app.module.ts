@@ -19,6 +19,7 @@ import { PandaProtectComponent } from './panda-protect/panda-protect.component';
 import { OniComponent } from './oni/oni.component';
 import { RhythmComponent } from './rhythm/rhythm.component';
 import { VerticalComponent } from './vertical/vertical.component';
+import { SorryImbrokeComponent } from './sorry-imbroke/sorry-imbroke.component';
 
 @NgModule({
   declarations: [
@@ -35,51 +36,52 @@ import { VerticalComponent } from './vertical/vertical.component';
     PandaProtectComponent,
     OniComponent,
     RhythmComponent,
-    VerticalComponent
+    VerticalComponent,
+    SorryImbrokeComponent
   ],
   imports: [
     BrowserModule,
     HttpModule,
-    RouterModule.forRoot([      
+    RouterModule.forRoot([
       {
-        path:'quadball',
-        component:QuadballComponent
+        path: 'quadball',
+        component: QuadballComponent
       },
       {
-        path:'platerunner',
-        component:PlaterunnerComponent
+        path: 'platerunner',
+        component: PlaterunnerComponent
       },
       {
-        path:'oni',
-        component:OniComponent
+        path: 'oni',
+        component: OniComponent
       },
       {
-        path:'frogger',
-        component:FroggerComponent
+        path: 'frogger',
+        component: FroggerComponent
       },
       {
-        path:'panda-protect',
-        component:PandaProtectComponent
-      },    
-      {
-        path:'rhythm',
-        component:RhythmComponent
-      },  
-      {
-        path:'color-run',
-        component:VerticalComponent
-      },  
-      {
-        path:'',
-        component:LandingpageComponent
+        path: 'panda-protect',
+        component: PandaProtectComponent
       },
       {
-        path:'about',
-        component:AboutComponent
+        path: 'rhythm',
+        component: RhythmComponent
       },
       {
-        path:'comingsoon',
-        component:ComingsoonComponent
+        path: 'color-run',
+        component: VerticalComponent
+      },
+      {
+        path: '',
+        component: LandingpageComponent
+      },
+      {
+        path: 'about',
+        component: AboutComponent
+      },
+      {
+        path: 'sorryimbroke',
+        component: SorryImbrokeComponent
       }
     ])
   ],
