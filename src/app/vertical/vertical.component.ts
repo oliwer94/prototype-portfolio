@@ -14,7 +14,7 @@ export class VerticalComponent implements OnInit {
 
   proto: any =
   {
-    name: "Color Run",
+    name: "Color Run ",
     about:
 `The exercise was to create a vertical 
 jumping game....
