@@ -18,7 +18,7 @@ export class PandaProtectComponent implements OnInit {
     name: "Panda Protect",
     about: 
 `The exercise was to pick an emotion and
-try to turn it into a game. We have picked *****.
+try to turn it into a game. We have picked sympathy.
 The player has to carry the injured panda to
 the hospital, before it bleeds out or get
 shot by the poachers again.
